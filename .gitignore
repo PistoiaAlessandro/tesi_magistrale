@@ -1,0 +1,17 @@
+# data and generated outputs (not versioned)
+data/raw/*
+data/prepared/*
+results/intermediate/*
+results/final/*
+output/*
+!**/.gitkeep
+# python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/
+# R
+.Rhistory
+.RData
+.Rproj.user/

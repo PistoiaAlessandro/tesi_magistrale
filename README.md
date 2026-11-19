@@ -2,6 +2,8 @@
 
 > **Master's thesis project** — an empirical study of the trade-off between **algorithmic fairness** and **financial profitability** in ML-based retail credit scoring.
 >
+> **Author:** Alessandro Pistoia · **Reference paper:** Kozodoi, Jacob & Lessmann (2022), *European Journal of Operational Research*
+>
 > 🇮🇹 [Versione italiana](README_IT.md)
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
@@ -92,17 +94,17 @@ Eight techniques, placed at different stages of the modelling pipeline, plus an 
 
 The reference framework uses seven real-world retail credit datasets of very different size and default rate:
 
-| Dataset | Observations |
-|---------|-------------:|
-| German Credit | 1,000 |
-| Bene | 3,123 |
-| Taiwan Credit | 23,531 |
-| UK | 30,000 |
-| PAKDD | 50,000 |
-| GMSC (Give Me Some Credit) | 150,000 |
-| Home Credit | 307,511 |
+| Dataset | Observations | Used in thesis |
+|---------|-------------:|:--------------:|
+| German Credit | 1,000 | ✅ |
+| Bene | 3,123 | — |
+| Taiwan Credit | 23,531 | ✅ |
+| UK | 30,000 | ✅ |
+| PAKDD | 50,000 | ✅ |
+| GMSC (Give Me Some Credit) | 150,000 | — |
+| Home Credit | 307,511 | — |
 
-The final comparative analysis of the thesis was run on the **4 publicly accessible datasets**. Raw data are **not** included in this repository (licensing): see [`data/README.md`](data/README.md) for sources and the expected folder layout.
+The final comparative analysis of the thesis was run on **4 datasets: German Credit, Taiwan Credit, UK and PAKDD**. Raw data are **not** included in this repository (licensing): see [`data/README.md`](data/README.md) for sources and the expected folder layout.
 
 **Preparation:** 70/30 train–test split · 5-fold cross-validation inside the training set · `MaxAbsScaler` normalisation to [-1, 1] (preserves sparsity) · binary `AGE` group attribute.
 

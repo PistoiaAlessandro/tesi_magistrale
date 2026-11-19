@@ -2,6 +2,8 @@
 
 > **Progetto di tesi magistrale** — studio empirico del trade-off tra **equità algoritmica** (*fairness*) e **redditività finanziaria** nei modelli di credit scoring basati su Machine Learning.
 >
+> **Autore:** Alessandro Pistoia · **Paper di riferimento:** Kozodoi, Jacob & Lessmann (2022), *European Journal of Operational Research*
+>
 > 🇬🇧 [English version](README.md)
 
 ---
@@ -61,17 +63,17 @@ Definizioni formali in [`docs/methodology.md`](docs/methodology.md).
 
 ## 🗃️ Dati
 
-| Dataset | Osservazioni |
-|---------|-------------:|
-| German Credit | 1.000 |
-| Bene | 3.123 |
-| Taiwan Credit | 23.531 |
-| UK | 30.000 |
-| PAKDD | 50.000 |
-| GMSC | 150.000 |
-| Home Credit | 307.511 |
+| Dataset | Osservazioni | Usato nella tesi |
+|---------|-------------:|:----------------:|
+| German Credit | 1.000 | ✅ |
+| Bene | 3.123 | — |
+| Taiwan Credit | 23.531 | ✅ |
+| UK | 30.000 | ✅ |
+| PAKDD | 50.000 | ✅ |
+| GMSC | 150.000 | — |
+| Home Credit | 307.511 | — |
 
-L'analisi comparativa finale è stata condotta sui **4 dataset accessibili pubblicamente**. Preparazione: split 70/30, 5 fold di cross-validation, normalizzazione `MaxAbsScaler` in [-1, 1]. Fonti in [`data/README.md`](data/README.md).
+L'analisi comparativa finale è stata condotta su **4 dataset: German Credit, Taiwan Credit, UK e PAKDD**. Preparazione: split 70/30, 5 fold di cross-validation, normalizzazione `MaxAbsScaler` in [-1, 1]. Fonti in [`data/README.md`](data/README.md).
 
 ## 🔄 Pipeline sperimentale
 

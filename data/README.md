@@ -1,16 +1,16 @@
 # Data
 
-Raw datasets are **not versioned** in this repository (licence / size). Download them into `data/raw/`; the partitioning notebook (`code_01`) writes the prepared splits into `data/prepared/`.
+Raw datasets are **not versioned** in this repository (licence / size). The thesis experiments use **German Credit, Taiwan Credit, UK and PAKDD**; the other three belong to the reference framework of Kozodoi et al. (2022). Download them into `data/raw/`; the partitioning notebook (`code_01`) writes the prepared splits into `data/prepared/`.
 
-| Dataset | Observations | Availability | Source |
-|---------|-------------:|--------------|--------|
-| German Credit | 1,000 | Public | [UCI – Statlog (German Credit Data)](https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data) |
-| Taiwan Credit | 23,531 (after cleaning) | Public | [UCI – Default of Credit Card Clients](https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients) |
-| GMSC | 150,000 | Public | [Kaggle – Give Me Some Credit](https://www.kaggle.com/c/GiveMeSomeCredit) |
-| Home Credit | 307,511 | Public | [Kaggle – Home Credit Default Risk](https://www.kaggle.com/c/home-credit-default-risk) |
-| PAKDD | 50,000 | Competition data | PAKDD 2010 Data Mining Competition |
-| UK | 30,000 | Not public | — |
-| Bene | 3,123 | Not public | — |
+| Dataset | Observations | Used in thesis | Source |
+|---------|-------------:|:--------------:|--------|
+| German Credit | 1,000 | ✅ | [UCI – Statlog (German Credit Data)](https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data) |
+| Taiwan Credit | 23,531 (after cleaning) | ✅ | [UCI – Default of Credit Card Clients](https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients) |
+| GMSC | 150,000 | — | [Kaggle – Give Me Some Credit](https://www.kaggle.com/c/GiveMeSomeCredit) |
+| Home Credit | 307,511 | — | [Kaggle – Home Credit Default Risk](https://www.kaggle.com/c/home-credit-default-risk) |
+| PAKDD | 50,000 | ✅ | PAKDD 2010 Data Mining Competition |
+| UK | 30,000 | ✅ | Not redistributed here |
+| Bene | 3,123 | — | Not redistributed here |
 
 ## Expected layout
 

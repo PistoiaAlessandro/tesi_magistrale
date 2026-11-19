@@ -6,7 +6,7 @@
 
 | Dimension | Levels |
 |-----------|--------|
-| Datasets | 4 publicly accessible credit scoring datasets |
+| Datasets | German Credit, Taiwan Credit, UK, PAKDD |
 | Resampling | 5 cross-validation folds + 30% hold-out test set |
 | Base classifiers | Logistic Regression, Random Forest, XGBoost, Neural Network |
 | Fairness processors | RW, DIR, PR, MA, AD, EOP, PS, ROC (+ unconstrained benchmark) |
